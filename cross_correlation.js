@@ -3,9 +3,9 @@
 * Description:
 *	Implements cross-correlation of series x and y as defined by
 *
-*							sigma_i[(x(i)-mean_x)*(y(i-d)-mean_y)]
+*					sigma_i[(x(i)-mean_x)*(y(i-d)-mean_y)]
 *		r(d) =	-----------------------------------------------------------------
-*				sqrt(sigma_i[(x(i)-mean_x)^2]) * sqrt(sigma_i[(y(i-d)-mean_y)^2])
+*			sqrt(sigma_i[(x(i)-mean_x)^2]) * sqrt(sigma_i[(y(i-d)-mean_y)^2])
 *
 * References: 
 * 	http://paulbourke.net/miscellaneous/correlate/
