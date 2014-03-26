@@ -63,7 +63,7 @@ var cross_correlation=function(series_x, series_y)
 			//Compute cross-correlate coefficients
 				for(int delay = -delay_max; delay<delay_max; delay++){
 
-					numerator = 0;
+					var numerator = 0;
 					sqr_series_x = 0;
 					sqr_series_y = 0;
 
