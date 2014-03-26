@@ -11,6 +11,7 @@
 * 	http://paulbourke.net/miscellaneous/correlate/
 */
 
+//NOTE: THIS CODE HAS NOT BEEN TESTED AND PROBABLY HAS SOME ERRORS. THIS NOTE WILL BE REMOVED ONCE TESTED.
 
 function InputException(message) {
    this.message = message;
@@ -31,7 +32,7 @@ var cross_correlation=function(series_x, series_y)
 	var delay_max = 2*length_x;
 
 	//If time series of valid length.
-		if((length_x!=0)&&(length_y!=0){
+		if((length_x!=0)&&(length_y!=0)){
 			
 			//If series of different lengths, pad with zeros.
 				var diff = length_x-length_y;
