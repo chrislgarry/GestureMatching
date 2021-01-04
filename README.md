@@ -1,4 +1,4 @@
-Math
+Gesture Matching
 ====
 
-Implementations of various math functions.
+Implementations of various gesture matching functions.
